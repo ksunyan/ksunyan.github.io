@@ -1,57 +1,119 @@
 * {
-	margin: 0;
-	padding: 0;
-}
-
-nav {
-	box-sizing: border-box;
-	background-color: #66FF99;
-	position: sticky;
-	top: 0;
-	width: 100%
 	margin: 0px;
-	padding: 10px 20px;
-	list-style-type: none;
-	font-family: 'Space Mono', monospace;
-	font-size: 32px;
+	padding: 0px;
 }
 
-nav:hover {
-	background-color: #CCFF99;
+p {
+	margin: 10px;
+	padding: 5px 40px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
 }
 
-nav li {
-	display: inline;
+ul {
+	margin: 10px;
+	padding: 0px 80px;
 }
 
-nav li a {
-	color: #000000;
-
+li {
+	padding: 5px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
 }
 
 h1 {
 	margin: 10px;
-	padding: 10px 20px;
+	padding: 10px 40px;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 48px;
 	font-weight: bold;
 }
 
-p {
+h2 {
 	margin: 10px;
-	padding: 10px 20px;
+	padding: 10px 40px;
 	font-family: 'Helvetica', sans-serif;
-	font-size: 22px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 10px;
+	padding: 5px 40px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.imageCollection {
+	margin: 10px 50px;
+}
+
+img {
+	margin: 0px 0px;
+	padding: 0px 0px;
+	border-style: solid;
+}
+
+nav {
+	box-sizing: border-box;
+	background-color: darkblue;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	margin: 0px;
+	padding: 10px 20px;
+	list-style-type: none;
+}
+
+nav:hover {
+	background-color: lightblue;
+}
+
+nav ul {
+	padding: 10px 20px;
+	
+}
+
+nav li {
+	display: inline;
+	font-family: 'Space Mono', monospace;
+	font-size: 32px;
+}
+
+nav li a {
+	color: #FFFFFF;
+}
+
+nav:hover li a {
+	color: #000000;
 }
 
 footer {
 	box-sizing: border-box;
-	background-color: #66FF99;
-	position: sticky;
-	bottom: 0;
+	background-color: darkblue;
 	width: 100%;
 	margin: 0px;
 	padding: 10px 20px;
+}
+
+footer p {
 	font-family: 'Space Mono', monospace;
 	font-size: 32px;
+	color: #FFFFFF;
+}
+
+footer li {
+	padding: 2px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+footer li a {
+	color: #FFFFFF;
+}
+
+footer li a:visited {
+	color: #FFD700;
 }
