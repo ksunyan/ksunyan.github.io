@@ -9,15 +9,13 @@
 <body>
 	<nav>
 		<ul>
-			<li><a href="./index.html">Home</a></li>
-			<li><a href="./about.html">About Me</a></li>
-			<li><a href="./projects.html">Projects</a></li>
+			<li><a href="#top">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#projects">Projects</a></li>
 		</ul>
 	</nav>
 
 	<h1>Hello!</h1>
-
-	
 
 	<div class="imageCollection">
 		<img src="./images/kenneth_boat_1.jpeg" style="width:300px;height:300px;">
@@ -29,6 +27,38 @@
 	<h3>My academic and professional interests are at the intersection of the humanities and technology. Some questions I think about are:</h3>
 	<h3>How can we effectively communicate technology to various audiences?</h3>
 	<h3>How can we better visualize and comprehend data?</h3>
+
+	<h1 id="projects">Projects</h1>
+
+	<h2>MapSCAD</h2>
+
+	<div class="imageCollection">
+		<img src="./images/mapscad_nj_axes.png" style="width:300px;height:225px;">
+	</div>
+	<p>MapSCAD is a personal project inspired by my love of 3D printing and my recent interest in data visualization. I created a Python module, jsonscad_builder.py, that provides an API for building 3D printable choropleth maps from GeoJSON data.</p>
+	<p>See the project on <a href="https://github.com/ksunyan/mapSCAD">GitHub</a> and read the <a href="./projects/jsonscad_builder.html">documentation.</a></p>
+
+	<h2>Data Visualizations</h2>
+
+	<p>These are some of the visualizations I made for a data visualization course (Yale CPSC 446, Data and Information Visualization). Note: Since these are homework assignments; I am not permitted to make the source code public.</p>
+	<h3>Mauna Loa Carbon Dioxide Levels 1958-2017</h3>
+	<div class="imageCollection">
+		<img src="./projects/mauna_loa.jpeg" style="width:400;height:400px;">
+	</div>
+	<p>Carbon dioxide levels at Mauna Loa from 1958 to 2017, shown as a single cycle.</p>
+
+	<h3>Life Expectancy and Household Income by State</h3>
+	<div class="imageCollection">
+		<img src="./projects/states.jpeg" style="width:500;height:300px;">
+	</div>
+	<p>Each state is colored by life expectancy at birth. Higher values are represented by darker shades of green.</p>
+	<p>The radius of each state's centroid represents the median household income of that state. Higher values are represented by larger radii.</p>
+	<p>Data are from the following sources:</p>
+	<ul>
+		<li><a href="https://data.cdc.gov/NCHS/U-S-Life-Expectancy-at-Birth-by-State-and-Census-T/5h56-n989">CDC: U.S. Life Expectancy at Birth by State and Census Tract - 2010-2015</a></li>
+		<li><a href="https://www.kff.org/other/state-indicator/median-annual-income/">Kaiser Family Foundation: Median Annual Household Income</a></li>
+	</ul>
+
 	<footer>
 		<p>Get in Touch</p>
 		<ul>
