@@ -90,6 +90,9 @@ img {
 	margin: 0.5%;
 	width: 400px;
 	height: auto;
+	border-style: solid;
+	border-width: 0.5vw;
+	border-radius: 1vw;
 }
 
 @media (max-width: 500px) {
@@ -99,6 +102,8 @@ img {
   		margin-right: auto;
 		width: 85vw;
 		height: auto;
+		border-width: 1vw;
+		border-radius: 2vw;
 	}
 }
 
