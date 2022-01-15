@@ -46,13 +46,15 @@ h3 {
 }
 
 .imageCollection {
-	margin: 0.5% 6%;
+	padding: 0.5% 6%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 img {
-	margin: 0% 0%;
-	padding: 0% 0%;
-	border-style: solid;
+	margin: 0.5%;
+	width: 400px;
+	height: auto;
 }
 
 nav {
@@ -96,6 +98,12 @@ footer {
 	width: 100%;
 	margin: 0%;
 	padding: 1% 0%;
+}
+
+@media only screen and (max-width: 480px){
+	footer {
+		background-color: pink;
+	}
 }
 
 footer p {
