@@ -6,8 +6,14 @@
 p {
 	margin: 1%;
 	padding: 0.5% 5%;
-	font-family: 'Helvetica', sans-serif;
-	font-size: medium;
+	font-family: 'Georgia', serif;
+	font-size: 1.75vw;
+}
+
+@media (max-width: 500px) {
+	p {
+		font-size: 3.5vw;
+	}
 }
 
 ul {
@@ -17,49 +23,59 @@ ul {
 
 li {
 	padding: 0.5%;
-	font-family: 'Helvetica', sans-serif;
-	font-size: medium;
+	font-family: 'Georgia', serif;
+	font-size: 1.75vw;
+}
+
+@media (max-width: 500px) {
+	li {
+		font-size: 3.5vw;
+	}
 }
 
 h1 {
 	margin: 1%;
-	padding: 0.5% 5%;
-	font-family: 'Helvetica', sans-serif;
-	font-size: xxx-large;
+	padding: 2% 5% 0.5%;
+	font-family: 'Epilogue', 'Helvetica', sans-serif;
+	font-size: 6vw;
 	font-weight: bold;
 }
 
 @media (max-width: 500px) {
 	h1 {
+		font-size: 12vw;
 		text-align: center;
-		padding: 3% 5%;
+		padding: 4% 5% 1%;
 	}
 }
 
 h2 {
 	margin: 1%;
-	padding: 0.5% 5%;
-	font-family: 'Helvetica', sans-serif;
-	font-size: xx-large;
+	padding: 2% 5% 0.5%;
+	font-family: 'Epilogue', 'Helvetica', sans-serif;
+	font-size: 4vw;
 	font-weight: bold;
 }
 
 @media (max-width: 500px) {
 	h2 {
-		padding: 2% 5%;
+		font-size: 8vw;
+		text-align: center;
+		padding: 4% 5% 1%;
 	}
 }
 
 h3 {
 	margin: 1%;
 	padding: 0.5% 5%;
-	font-family: 'Helvetica', sans-serif;
-	font-size: large;
-	font-weight: normal;
+	font-family: 'Georgia', serif;
+	font-size: 2vw;
+	font-weight: bold;
 }
 
 @media (max-width: 500px) {
 	h3 {
+		font-size: 4vw;
 		padding: 2% 5%;
 	}
 }
@@ -94,12 +110,11 @@ nav {
 	width: 100%;
 	margin: 0%;
 	padding: 1% 0%;
-	list-style-type: none;
 }
 
 @media (max-width: 500px) {
 	nav {
-		padding: 5% 0%;
+		padding: 4% 0%;
 	}
 }
 
@@ -115,8 +130,17 @@ nav ul {
 
 nav li {
 	display: inline;
-	font-family: 'Space Mono', monospace;
-	font-size: x-large;
+	list-style-type: none;
+	font-family: 'Epilogue', 'Helvetica', sans-serif;
+	font-size: 3vw;
+}
+
+@media (max-width: 500px) {
+	nav li {
+		display: list-item;
+		list-style-type: none;
+		font-size: 4vw;
+	}
 }
 
 nav li a {
@@ -138,14 +162,19 @@ footer {
 footer p {
 	margin: 1%;
 	padding: 0% 5%;
-	font-family: 'Space Mono', monospace;
-	font-size: x-large;
+	font-family: 'Epilogue', 'Helvetica', sans-serif;
+	font-size: 3vw;
 	color: #FFFFFF;
 }
 
+@media (max-width: 500px) {
+	footer p {
+		font-size: 4vw;
+	}
+}
+
 footer li {
-	font-family: 'Helvetica', sans-serif;
-	font-size: medium;
+	font-family: 'Epilogue', 'Helvetica', sans-serif;
 	color: #FFFFFF;
 }
 
