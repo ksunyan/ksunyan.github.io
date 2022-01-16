@@ -90,6 +90,7 @@ img {
 	border-style: solid;
 	border-width: 0.5vw;
 	border-radius: 1vw;
+	align-self: center;
 }
 
 @media (max-width: 500px) {
